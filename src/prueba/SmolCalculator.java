@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class SmolCalculator extends JFrame implements ActionListener //WithoutLayoutManagers
+public class SmolCalculator extends JFrame implements ActionListener
 {
     JPanel Keyboard = new JPanel();
     JPanel Display = new JPanel();
