@@ -35,7 +35,7 @@ public class SmolCalculator extends JFrame implements ActionListener
         Operations.setBorder(BorderFactory.createEmptyBorder(0,3,5,10));
         Footer.setBorder(BorderFactory.createEmptyBorder(5,10,10,10));
         setResizable(true);
-        setLayout(new BorderLayout()); //* must edit, use a layout instead of doing maths with dimensions and coordinates
+        setLayout(new BorderLayout()); //* Layouts, yikes
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         txt1 = new JTextField("");
